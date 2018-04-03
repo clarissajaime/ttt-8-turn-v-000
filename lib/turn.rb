@@ -1,3 +1,12 @@
+def input_to_index(input)
+  user_input_position =  input.to_i - 1
+end
+
+def move(array, index, value = "X")
+  array[index] = value
+end
+
+
 def display_board(board)
   puts " #{board[0]} | #{board[1]} | #{board[2]} "
   puts "-----------"
