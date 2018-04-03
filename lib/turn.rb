@@ -1,5 +1,5 @@
 def turn(board, input, value = "X")
-   puts "Please enter 1-9:"
+  puts "Please enter 1-9:"
   input = gets.strip
   index = input_to_index(input)
   # if valid_move?(board, index) == true
