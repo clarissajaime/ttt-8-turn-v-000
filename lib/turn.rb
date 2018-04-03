@@ -1,3 +1,11 @@
+def turn
+  puts "Please enter 1-9:"
+  input = gets.strip
+  index = input_to_index(input)
+  move(board, index, value = "X")
+  puts display_board(board)
+end
+
 def input_to_index(input)
   user_input_position =  input.to_i - 1
 end
